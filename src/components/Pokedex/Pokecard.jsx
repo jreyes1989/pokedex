@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import './styles/pokeCard.css'
 
 
-const Pokecard = ({ url }) => {
+const PokeCard = ({ url }) => {
 
     const [pokemon, setPokemon] = useState()
 
@@ -54,4 +54,4 @@ const Pokecard = ({ url }) => {
     )
 }
 
-export default Pokecard
+export default PokeCard
